@@ -4,8 +4,8 @@
 
 # Site
 title: Hacking Tube 2.0
-subtitle: I fuzz. I reverse. I pwn.
-description: Security and stuff.
+subtitle: Security and stuff.
+description: I reverse. I fuzz. I pwn.
 author: Bruce Chen
 language: en
 timezone: Asia/Taipei
@@ -62,12 +62,35 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugin:
+ - hexo-generator-feed
+
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+# disqus
+disqus_shortname: bruce30262-github-io
+
+# Social 
+social:
+  Github: https://github.com/bruce30262
+  Twitter: https://twitter.com/bruce30262
+  Facebook: https://www.facebook.com/bruce.chen.102
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:bruce30262/bruce30262.github.io.git
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+
+# feed
+feed:
+  type: atom
+  path: /atom.xml
+  limit: 20
 
