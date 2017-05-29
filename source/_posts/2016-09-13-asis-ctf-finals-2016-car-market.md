@@ -1,16 +1,16 @@
 title: ASIS CTF Finals 2016 -- car market
 tags:
   - CTF
+  - Pwnable
   - ASIS
   - python
-  - Pwnable
-  - use-after-free
+  - use_after_free
   - heap
   - off-by-one
 categories:
   - write-ups
 author: bruce30262
-date: 2016-09-13 16:54:00
+date: 2016-09-13 08:54:00
 ---
 **Category:** pwn
 **Points:** 177  

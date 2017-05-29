@@ -1,17 +1,16 @@
----
-title: 'HITCON CTF 2016 Quals -- Secret Holder'
-date: 2016-10-10 16:10
+title: HITCON CTF 2016 Quals -- Secret Holder
 tags:
-  - CTF
   - Python
-  - HITCON
-  - heap
+  - CTF
   - Pwnable
-  - use-after-free
+  - use_after_free
+  - heap
+  - HITCON
   - heap_overflow
 categories:
   - write-ups
 author: bruce30262
+date: 2016-10-10 08:10:00
 ---
 **Category:** pwn
 **Points:** 100
