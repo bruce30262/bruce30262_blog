@@ -23,53 +23,53 @@ Here's the pseudo code of the main function:
 
 int main()
 {
-	puts("Welcome to Online Befunge(93) Interpreter");
-	puts("Please input your program.");
-	program = read_program(); // read user input to buffer 'program'
-	
-	step = 10001;
-	row = 0, col = 0;
-	do
-	{
-		ins = program[80 * row + col]
-		switch ( ins )
-		{
-			.....//other instruction...
-			case '&': // ask user for a number and push it to stack
-				   __isoc99_scanf("%d", &x);
-				push(x);
-				break;
-		 case '.': // Pop value and output as an integer followed by a space
-				   x = pop();
-				__printf_chk(1LL, "%d ", x);
-				break;
-			.....//other instruction...
-			case '*':  // pop x, y, push x*y
-				   a = pop();
-				b = pop();
-				push(a * b);
-				break;
-			.....//other instruction...
-			case 'g': // (get) Pop x and y, then push ASCII value of the character at that position in the program
-				   x = pop();
-				y = pop();
-				push( (char)(program[80 * x + y]) );
-				break;
-		 case 'p': // (put) Pop x, y, and z, then change the character at (x,y) in the program to the character with ASCII value z
-				   x = pop();
-				y = pop();
-				z = pop();
-				program[80 * x + y] = (char)z;
-				break;
-		 case ' ': // space = do nothing
-				   break;
-		}
-		--step;
-		// update row & column
-		// do other stuff...
-	}while ( step );
-	puts("Too many steps. Is there any infinite loops?");
-	return 0LL;
+    puts("Welcome to Online Befunge(93) Interpreter");
+    puts("Please input your program.");
+    program = read_program(); // read user input to buffer 'program'
+
+    step = 10001;
+    row = 0, col = 0;
+    do
+    {
+        ins = program[80 * row + col]
+            switch ( ins )
+            {
+                .....//other instruction...
+                case '&': // ask user for a number and push it to stack
+                    __isoc99_scanf("%d", &x);
+                    push(x);
+                    break;
+                case '.': // Pop value and output as an integer followed by a space
+                    x = pop();
+                    __printf_chk(1LL, "%d ", x);
+                    break;
+                    .....//other instruction...
+                case '*':  // pop x, y, push x*y
+                    a = pop();
+                    b = pop();
+                    push(a * b);
+                    break;
+                        .....//other instruction...
+                case 'g': // (get) Pop x and y, then push ASCII value of the character at that position in the program
+                    x = pop();
+                    y = pop();
+                    push( (char)(program[80 * x + y]) );
+                    break;
+                case 'p': // (put) Pop x, y, and z, then change the character at (x,y) in the program to the character with ASCII value z
+                    x = pop();
+                    y = pop();
+                    z = pop();
+                    program[80 * x + y] = (char)z;
+                    break;
+                case ' ': // space = do nothing
+                    break;
+            }
+        --step;
+        // update row & column
+        // do other stuff...
+    }while ( step );
+    puts("Too many steps. Is there any infinite loops?");
+    return 0LL;
 }
 ```
   
