@@ -3,7 +3,7 @@ tags:
   - MMA
   - CTF
   - format_string
-  - python
+  - Python
   - Pwnable
 categories:
   - write-ups

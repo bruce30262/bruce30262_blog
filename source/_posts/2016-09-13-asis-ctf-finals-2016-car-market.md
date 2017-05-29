@@ -3,7 +3,7 @@ tags:
   - CTF
   - Pwnable
   - ASIS
-  - python
+  - Python
   - use_after_free
   - heap
   - off-by-one

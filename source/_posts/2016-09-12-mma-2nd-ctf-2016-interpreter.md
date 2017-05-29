@@ -1,6 +1,6 @@
 title: MMA 2nd CTF 2016 -- Interpreter
 tags:
-  - python
+  - Python
   - MMA
   - CTF
   - Pwnable
