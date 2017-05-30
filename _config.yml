@@ -94,3 +94,5 @@ feed:
   path: /atom.xml
   limit: 20
 
+# Google Analytics
+google_analytics: UA-100090256-1
