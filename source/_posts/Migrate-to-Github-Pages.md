@@ -42,7 +42,7 @@ Later inside the container we can just run the hexo command under the `/app` dir
     ```
     deploy:
       type: git
-      repo: git@github.com:yourname/yourname.github.io.git
+      repo: https://github.com/bruce30262/bruce30262.github.io.git
     ```
     * Don't forget to install the **hexo-deployer-git** plugin
 
@@ -161,6 +161,3 @@ Also change the setting in the disqus account ( new website url, [add trust doma
 * [Hexo NexT theme github page](https://github.com/iissnan/hexo-theme-next)
 * [Add AddThis to Hexo-NexT-theme](https://github.com/iissnan/hexo-theme-next/pull/660) (Chinese)
 * [Disqus Migration Tools](https://help.disqus.com/customer/portal/articles/286778-migration-tools)
-
-
-

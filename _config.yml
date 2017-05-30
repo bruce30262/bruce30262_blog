@@ -82,7 +82,7 @@ social:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:bruce30262/bruce30262.github.io.git
+  repo: https://github.com/bruce30262/bruce30262.github.io.git
 
 # sitemap
 sitemap:
