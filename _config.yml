@@ -5,7 +5,7 @@
 # Site
 title: Hacking Tube 2.0
 subtitle: Security and stuff.
-description: Reverse + Fuzz = Pwn
+description: Security researcher / CTFer / Pwner
 author: Bruce Chen
 language: en
 timezone: Asia/Taipei
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
